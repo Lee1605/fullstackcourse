@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(170, 175, 180);
+    height: 60px;
+}
+
+nav#navigation-bar {
+    text-align: center;
+    padding: 20px;
+}
+
+.nav-link {
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+section#about {
+   background-color: rgb(98, 168, 209);
+}
+
+#my-img {
+    float: right;
+    margin: 40px 0px 0 0;
+}
+
+div#about-me {
+    display: inline-block;
+    width: 800px;
+    margin-left: calc(50% - 400px);
+}
+
+.skill {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px 10px 10px 0;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+
+.con-link {
+    display: inline-block;
+    margin: 5px 0 5px 0;
+    text-decoration: none;
+    color: black;
+}
+
+
+section#my-work {
+    background-color: rgb(160, 177, 176);
+}
+
+.pr-img {
+    float: left;
+    margin-right: 30px;
+}
+
+.work {
+    display: inline-block;
+    width: 800px;
+    margin: 20px 0 20px calc(50% - 400px);
+    padding: 20px 20px 20px 0;
+}
+
+section#contact {
+    background-color: rgb(98, 168, 209);
+}
+
+form#contact-form {
+    display: inline-block;
+    margin: 30px 0 20px calc(50% - 145px);
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+}
+
+button#form-btn {
+    width: 100px;
+}
+
+footer {
+    text-align: center;
+    background-color: lightslategrey;
+}
+
+footer h5 {
+    display: inline-block;
+}
+
