@@ -5,11 +5,13 @@ body {
 header {
     background-color: rgb(170, 175, 180);
     height: 60px;
+    width: 100vw;
 }
 
 nav#navigation-bar {
     text-align: center;
     padding: 20px;
+    width: 100vw;
 }
 
 .nav-link {
@@ -52,6 +54,7 @@ div#about-me {
 
 section#my-work {
     background-color: rgb(160, 177, 176);
+    border-top: 1px solid black;
 }
 
 .pr-img {
@@ -68,6 +71,7 @@ section#my-work {
 
 section#contact {
     background-color: rgb(98, 168, 209);
+    border-top: 1px solid black;
 }
 
 form#contact-form {
@@ -80,8 +84,30 @@ fieldset {
     border: none;
 }
 
+input {
+    background-color: rgb(98, 168, 209);
+    border: none;
+    border-bottom: 1px solid black;
+    outline: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea {
+    background-color: rgb(98, 168, 209);
+    border: 1px solid black;
+    outline: none;
+    box-sizing: border-box;
+
+}
+
 button#form-btn {
     width: 100px;
+    background-color: rgb(98, 168, 209);
+    border: 1px solid black;
+    cursor: pointer;
 }
 
 footer {
